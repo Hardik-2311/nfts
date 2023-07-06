@@ -2,7 +2,9 @@ import React from 'react'
 import "./Header.css"
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='Header absolute-center'>
+        <span className='Header-gradient'>Hardik</span>
+    </div>
   )
 }
 

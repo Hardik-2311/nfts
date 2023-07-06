@@ -1,0 +1,27 @@
+.TopFold{
+    height: 92vh;
+    overflow: hidden;
+}
+
+.tf-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 4rem;
+}
+
+.tf-Heading{
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+}
+.tf-description{
+    font-size: 1.25rem;
+    margin: 1.5rem 0rem;
+}
+.tf-left-buttons{
+    margin-top: 1.7rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}

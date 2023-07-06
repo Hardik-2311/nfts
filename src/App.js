@@ -9,13 +9,13 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-      <TopFold/>
-      <Brands/>
-      <Trending/>
-<Info/>
-<Footer/>
+    <div className='max-width'>
+      <Header />
+      <TopFold />
+      <Brands />
+      <Trending />
+      <Info />
+      <Footer />
 
     </div>
   )

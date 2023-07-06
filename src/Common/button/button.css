@@ -1,0 +1,14 @@
+.button{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: .9rem 4.5rem;
+    width: max-content;
+    border-radius: 60px;
+}
+
+.primary-btn{
+    background:  #cb0ffa;;
+}
+.secondary-btn{
+    border: 2px solid var(--white);
+}

@@ -11,3 +11,10 @@
 .cursor-po{
     cursor: pointer;
 }
+
+.Header-gradient{
+    background: var(--text-gradient-bg);
+    background:var(--text-gradient-1);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

@@ -31,7 +31,21 @@ const Topfold = () => {
 
             </div>
             <div className='tf-right'>
-                
+                <div className='tf-r-bg'></div>
+                <div className='tf-diamond'>
+                    <div className='tf-r-diamond-element absolute-center'>
+                        <img className='tf-diamond-image' alt='diamond-banner' src='https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9vcGVuc2VhdXNlcmRhdGEuY29tL2ZpbGVzL2MzYTMxMmM1MzUxNDY0MmU4MDQxYzY1ZTEwYjQwYTUyLmdpZg=='></img>
+                    </div>
+                    <div className='tf-r-diamond-element absolute-center'>
+                        <img className='tf-diamond-image' alt='diamond-banner' src='https://i.seadn.io/gcs/files/543630193cf32ac09c0356e767d2891e.gif?auto=format&dpr=1&w=256'></img>
+                    </div>
+                    <div className='tf-r-diamond-element absolute-center'>
+                        <img className='tf-diamond-image' alt='diamond-banner' src='https://i.seadn.io/gcs/files/f77f0f2cc27dd427c69c68e81bfb0b97.gif?auto=format&dpr=1&w=1920'></img>
+                    </div>
+                    <div className='tf-r-diamond-element absolute-center'>
+                        <img className='tf-diamond-image' alt='diamond-banner' src='https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFmeWJlaWRhNmp5M2Y0eHZrdXJodWpoa3lpcWUyc2F4bm54aG1scHMyZ3k3aGx0aHVnc2pmNmZkcHE='></img>
+                    </div>
+                </div>
             </div>
         </div>
     )

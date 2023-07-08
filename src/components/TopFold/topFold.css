@@ -11,17 +11,39 @@
 }
 
 .tf-Heading{
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 600;
     line-height: 4.5rem;
 }
 .tf-description{
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     margin: 1.5rem 0rem;
 }
 .tf-left-buttons{
-    margin-top: 1.7rem;
+    margin-top: 1rem;
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+.tf-left-info{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.tf-info-element{
+    margin-right: 1.5rem;
+    flex-direction: column;
+}
+
+.tf-count{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.tf-label{
+    font-size: .9rem;
+    font-weight: 600;
 }

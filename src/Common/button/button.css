@@ -4,6 +4,7 @@
     padding: .9rem 4.5rem;
     width: max-content;
     border-radius: 60px;
+    cursor: pointer;
 }
 
 .primary-btn{

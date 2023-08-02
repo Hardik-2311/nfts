@@ -1,5 +1,4 @@
 .TopFold{
-    height: 92vh;
     overflow: hidden;
 }
 
@@ -20,7 +19,7 @@
     margin: 1.5rem 0rem;
 }
 .tf-left-buttons{
-    margin-top: 1rem;
+    margin-top: .2rem;
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -30,7 +29,7 @@
     display: flex;
     gap: 3rem;
     align-items: center;
-    padding-top: 2.5rem;
+    padding-top: 1rem;
 }
 
 .tf-info-element{

@@ -1,13 +1,17 @@
 import React from 'react';
 import "./topFold.css";
 import Button from '../../Common/button';
-
+import { useTypewriter } from 'react-simple-typewriter'
 const Topfold = () => {
+        const [text] = useTypewriter({
+          words: ['xtraordinary', 'xpensive','xperiencable'],
+          loop: true
+        })
     return (
         <div className='TopFold absolute-center'>
             <div className='tf-left'>
                 <div className='tf-Heading'> 
-                    Discover,Collect, &Sell <span className='Header-gradient'>Extraordinary</span> NFT's
+                    Discover,Collect, &Sell <br></br><span className='Header-gradient'>E{text}</span><br></br> NFT's
                 </div>
                 <div className='tf-description'>cbeWPGSUDCEWuawuEBJCKWalsxnawpejkdbvc cpwebk;jacskdbjzc cepiwpiuq[fuwecjweouc[h2J{/* U43 */}</div>
                 <div className='tf-left-buttons'>
@@ -49,6 +53,6 @@ const Topfold = () => {
             </div>
         </div>
     )
-}
 
+}
 export default Topfold
